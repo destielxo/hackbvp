@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Casino</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="signup">Signup</string>
+    <string name="already_registered_sign_in_here">Already Registered? Sign in here</string>
+    <string name="signin" />
+    <string name="new_user_sign_up_here">new user? sign up here</string>
+
+    <string-array name="games_array">
+        <item>Crossword</item>
+        <item>Spiz</item>
+        <item>A for Aptitude</item>
+        <item>Tambola</item>
+        <item>Teen Patti</item>
+        <item>Spin The Wheel</item>
+        <item>Jenga</item>
+    </string-array>
+
+    <string name="rules_apti">
+It is a simple aptitude quiz with multiple choice questions. Only one option is correct.
+The scores will be as follows :
+                                                               (its not decided yet)
+                                         Contact the coordinator in case of any query or confusion
+
+    </string>
+
+    <string name="rules_cross">
+       Two players will compete against each other to form the maximum number of pairs possible in a given amount of time.
+How to make a pair :
+•	Mark both the question and its respective answer.
+•	Participant may also break their opponents pair by marking the answer before them.
+At the end valid pairs would be counted and the winner will be declared.
+                                         Contact the coordinator in case of any query or confusion
+
+    </string>
+
+    <string name="rules_jenga">
+        1. 4 players will play at a time.
+2. Blocks to be pulled will have 3 types of questions:-
+               Red: Error Questions (30 points)
+               Green: Output Questions (40 points)
+               White: Coding Questions (50 points)
+3. In first round, order of players will be decided by chits and in subsequent rounds order will be decided by the time a player takes in solving a question in previous round.
+4. Level of questions will get harder with each round.
+5. After structure falls ( -15 points to that player), if any players turn is left in that round, they will be given a bonus question (15 points).
+
+        Contact the coordinator in case of any query or confusion
+
+    </string>
+
+    <string name="rules_spiz">
+   It is a simple quiz with multiple choice questions . Only one of the option is correct.
+    The scores will be as follows :
+
+        (its not decided yet)
+        Contact the coordinator in case of any query or confusion
+
+    </string>
+
+    <string name="rules_tambola">
+       The game begins with a question draw. The objective of the game is to mark/ dab all the answers(to the question that was drawn) found in the ticket . The player who first mark all the answers and calls a win is declared as the WINNER after the coordinator checks his ticket and verify it .
+If your claimed winning pattern is wrong, it will be called BOOGY and you cannot continue the game with the same ticket.
+                                         Contact the coordinator in case of any query or confusion
+
+    </string>
+
+    <string name="rules_teen">
+       Like a normal game of teen patti , each player will have 3 cards and the player having the highest priority of cards will win.  On solving the questions that are written on the cards the player will determine their card values. The priority ranking will be provided at the venue. If the player is confident  that he/she has the best cards they can claim the win without showing the cards to the rest of the players. In case no one challenges their claim, they simply win and if someone challenges and has a higher ranking set they lose.  If the challenger has a lower ranking set  they lose double the amount.
+                                         Contact the coordinator in case of any query or confusion
+
+    </string>
+
+    <string name="rules_wheel">
+   Go to the fun corner and spin the wheel.
+•	If you get green you win double the amount .
+•	If you get red you lose your bet.
+
+    </string>
+
+</resources>
