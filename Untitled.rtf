@@ -1,0 +1,323 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fmodern\fcharset0 Courier-Bold;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red247\green247\blue247;\red38\green38\blue38;
+\red14\green110\blue109;\red15\green112\blue1;\red83\green77\blue192;\red251\green0\blue7;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh13680\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\b\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+using
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ \cf5 \expnd0\expndtw0\kerning0
+UnityEngine\cf6 \expnd0\expndtw0\kerning0
+;\cf4 \expnd0\expndtw0\kerning0
+\
+
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+using
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ \cf5 \expnd0\expndtw0\kerning0
+System.Collections\cf6 \expnd0\expndtw0\kerning0
+;\cf4 \expnd0\expndtw0\kerning0
+\
+\'a0\
+
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+public
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ 
+\f0\b \cf7 \expnd0\expndtw0\kerning0
+class
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ InputController \cf6 \expnd0\expndtw0\kerning0
+:\cf4 \expnd0\expndtw0\kerning0
+ MonoBehaviour \cf6 \expnd0\expndtw0\kerning0
+\{\cf4 \expnd0\expndtw0\kerning0
+\
+\'a0\
+	
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+public
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ WordGame game\cf6 \expnd0\expndtw0\kerning0
+;\cf4 \expnd0\expndtw0\kerning0
+\
+\'a0\
+	
+\f0\b \cf7 \expnd0\expndtw0\kerning0
+void
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ Update \cf6 \expnd0\expndtw0\kerning0
+()\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+\{\cf4 \expnd0\expndtw0\kerning0
+\
+\'a0\
+		
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+if
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+Input\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+touches\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+Length\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+&\cf4 \expnd0\expndtw0\kerning0
+gt\cf6 \expnd0\expndtw0\kerning0
+;\cf4 \expnd0\expndtw0\kerning0
+ \cf8 \expnd0\expndtw0\kerning0
+0\cf6 \expnd0\expndtw0\kerning0
+)\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+\{\cf4 \expnd0\expndtw0\kerning0
+\
+\'a0\
+			Touch touch \cf6 \expnd0\expndtw0\kerning0
+=\cf4 \expnd0\expndtw0\kerning0
+ Input\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+touches\cf6 \expnd0\expndtw0\kerning0
+[\cf8 \expnd0\expndtw0\kerning0
+0\cf6 \expnd0\expndtw0\kerning0
+];\cf4 \expnd0\expndtw0\kerning0
+\
+\'a0\
+			
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+if
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+touch\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+phase\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+==\cf4 \expnd0\expndtw0\kerning0
+ TouchPhase\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+Began\cf6 \expnd0\expndtw0\kerning0
+)\cf4 \expnd0\expndtw0\kerning0
+\
+			\cf6 \expnd0\expndtw0\kerning0
+\{\cf4 \expnd0\expndtw0\kerning0
+\
+				game\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+HandleTouchDown\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+touch\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+position\cf6 \expnd0\expndtw0\kerning0
+);\cf4 \expnd0\expndtw0\kerning0
+\
+			\cf6 \expnd0\expndtw0\kerning0
+\}\cf4 \expnd0\expndtw0\kerning0
+\
+			
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+else
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ 
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+if
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+touch\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+phase\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+==\cf4 \expnd0\expndtw0\kerning0
+ TouchPhase\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+Canceled\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+||\cf4 \expnd0\expndtw0\kerning0
+ touch\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+phase\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+==\cf4 \expnd0\expndtw0\kerning0
+ TouchPhase\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+Ended\cf6 \expnd0\expndtw0\kerning0
+)\cf4 \expnd0\expndtw0\kerning0
+\
+			\cf6 \expnd0\expndtw0\kerning0
+\{\cf4 \expnd0\expndtw0\kerning0
+\
+				game\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+HandleTouchUp\cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+touch\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+position\cf6 \expnd0\expndtw0\kerning0
+);\cf4 \expnd0\expndtw0\kerning0
+\
+			\cf6 \expnd0\expndtw0\kerning0
+\}\cf4 \expnd0\expndtw0\kerning0
+\
+			
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+else
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ 
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+if
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+touch\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+phase\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+==\cf4 \expnd0\expndtw0\kerning0
+ TouchPhase\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+Moved\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+||\cf4 \expnd0\expndtw0\kerning0
+ touch\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+phase\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+==\cf4 \expnd0\expndtw0\kerning0
+ TouchPhase\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+Stationary\cf6 \expnd0\expndtw0\kerning0
+)\cf4 \expnd0\expndtw0\kerning0
+\
+			\cf6 \expnd0\expndtw0\kerning0
+\{\cf4 \expnd0\expndtw0\kerning0
+\
+				game\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+HandleTouchMove\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+touch\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+position\cf6 \expnd0\expndtw0\kerning0
+);\cf4 \expnd0\expndtw0\kerning0
+\
+			\cf6 \expnd0\expndtw0\kerning0
+\}\cf4 \expnd0\expndtw0\kerning0
+\
+\'a0\
+\'a0\
+			game\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+HandleTouchMove\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+touch\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+position\cf6 \expnd0\expndtw0\kerning0
+);\cf4 \expnd0\expndtw0\kerning0
+	\
+\'a0\
+			
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+return
+\f1\b0 \cf6 \expnd0\expndtw0\kerning0
+;\cf4 \expnd0\expndtw0\kerning0
+\
+		\cf6 \expnd0\expndtw0\kerning0
+\}\cf4 \expnd0\expndtw0\kerning0
+\
+		
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+else
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ 
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+if
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+Input\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+GetMouseButtonDown\cf6 \expnd0\expndtw0\kerning0
+(\cf8 \expnd0\expndtw0\kerning0
+0\cf6 \expnd0\expndtw0\kerning0
+)\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+)\cf4 \expnd0\expndtw0\kerning0
+\
+		\cf6 \expnd0\expndtw0\kerning0
+\{\cf4 \expnd0\expndtw0\kerning0
+\
+			game\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+HandleTouchDown\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+Input\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+mousePosition\cf6 \expnd0\expndtw0\kerning0
+);\cf4 \expnd0\expndtw0\kerning0
+\
+		\cf6 \expnd0\expndtw0\kerning0
+\}\cf4 \expnd0\expndtw0\kerning0
+\
+		
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+else
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ 
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+if
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+Input\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+GetMouseButtonUp\cf6 \expnd0\expndtw0\kerning0
+(\cf8 \expnd0\expndtw0\kerning0
+0\cf6 \expnd0\expndtw0\kerning0
+))\cf4 \expnd0\expndtw0\kerning0
+\
+		\cf6 \expnd0\expndtw0\kerning0
+\{\cf4 \expnd0\expndtw0\kerning0
+\
+			game\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+HandleTouchUp\cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+Input\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+mousePosition\cf6 \expnd0\expndtw0\kerning0
+);\cf4 \expnd0\expndtw0\kerning0
+\
+		\cf6 \expnd0\expndtw0\kerning0
+\}\cf4 \expnd0\expndtw0\kerning0
+\
+		
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+else
+\f1\b0 \cf4 \expnd0\expndtw0\kerning0
+ \
+			game\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+HandleTouchMove\cf4 \expnd0\expndtw0\kerning0
+ \cf6 \expnd0\expndtw0\kerning0
+(\cf4 \expnd0\expndtw0\kerning0
+Input\cf6 \expnd0\expndtw0\kerning0
+.\cf2 \expnd0\expndtw0\kerning0
+mousePosition\cf6 \expnd0\expndtw0\kerning0
+);\cf4 \expnd0\expndtw0\kerning0
+\
+\'a0\
+	\cf6 \expnd0\expndtw0\kerning0
+\}\cf4 \expnd0\expndtw0\kerning0
+\
+\cf6 \expnd0\expndtw0\kerning0
+\}\
+\
+}
